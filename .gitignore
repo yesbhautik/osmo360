@@ -1,0 +1,44 @@
+# Build outputs
+**/build/
+**/.gradle/
+**/out/
+**/*.apk
+**/*.aab
+**/*.dex
+
+# Local IDE and OS files
+.idea/
+**/.idea/
+.vscode/
+.DS_Store
+
+# Private research, captures, and generated analysis artifacts.
+# Do not publish these: they may contain device identifiers, logs, packet
+# captures, decompiled third-party code, or proprietary protocol traces.
+captures/
+FINDINGS.md
+refs/
+viewer/
+osmo_probe.py
+requirements.txt
+export_setup_asset.py
+*.pcap
+*.pcapng
+*.cfa
+*.log
+*.raw
+*.bin
+*.h264
+*.mp4
+
+# Local Python/test cache
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local credentials or config
+.env
+*.keystore
+*.jks
+local.properties
